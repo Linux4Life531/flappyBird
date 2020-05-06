@@ -52,7 +52,7 @@ function draw() {
   }
 
   textSize(50);
-  text(newTime, width-60, 70);
+  text(newTime, width-100, 70);
   
 }
 
