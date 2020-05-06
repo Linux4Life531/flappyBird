@@ -61,7 +61,7 @@ function keyPressed() {
 }
 
 function mouseClicked() {
-  bird.up() 
+  bird.up();
 }
 
 function timeDown(){
