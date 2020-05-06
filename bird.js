@@ -6,7 +6,7 @@ function Bird() {
     this.lift = -20;
     this.velocity = 0;
 
-    this.lives = 3;
+    this.lives = 1;
   
     this.show = function() {
       fill(255);
