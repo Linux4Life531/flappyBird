@@ -34,14 +34,14 @@ function draw() {
 
   if (bird.lives == 0) {
     gameOver = true;
-    background(255);
+    background(0);
     textSize(50);
     fill(255, 0, 0);
     text('Game over!', 20, 70);
   }
   
   if (gameOver) {
-    background(255);
+    background(0);
     textSize(50);
     fill(255, 0, 0);
     text('Game over!', 20, 70);
