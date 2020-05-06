@@ -60,6 +60,10 @@ function keyPressed() {
   }
 }
 
+function mouseClicked() {
+  bird.up() 
+}
+
 function timeDown(){
   time++;
   if (gameOver==false) {
