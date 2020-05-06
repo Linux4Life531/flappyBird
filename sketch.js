@@ -5,7 +5,7 @@ var time = 0;
 var newTime = 0;
 
 function setup() {
-  createCanvas(400, 600);
+  createCanvas(window.innerWidth, window.innerHeight);
   bird = new Bird();
   pipes.push(new Pipe());
   setInterval(timeDown, 1000);
